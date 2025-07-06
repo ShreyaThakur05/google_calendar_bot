@@ -7,9 +7,9 @@ It features real-time availability checks, prevents scheduling in the past, and 
 
 ## 📸 Demo
 
-<img src="C:\Users\Shreyas Thakur\Downloads\google_calendar_bot\Screenshot_calendar.png" width="600"/>
-<br/>
-<img src="C:\Users\Shreyas Thakur\Downloads\google_calendar_bot\Screenshot_calendarbot.png" width="600"/>
+![Assistant](assets/Screenshot_calendarbot.png)
+
+![Calendar](assets/Screenshot_calendar.png)
 
 ---
 
@@ -47,3 +47,27 @@ It features real-time availability checks, prevents scheduling in the past, and 
 ```bash
 git clone https://github.com/ShreyaThakur05/google_calendar_bot.git
 cd google_calendar_bot
+```
+
+### 2️⃣ Start Backend (FastAPI)
+
+```bash
+cd backend
+uvicorn main:app --reload
+```
+
+### 3️⃣ Start Frontend (Streamlit)
+
+```bash
+cd frontend
+streamlit run app.py
+```
+
+---
+
+## 🔐 Authentication
+
+This project uses a **Google Service Account** with the Calendar API enabled.  
+Make sure your `service_account.json` is valid and added to your project.
+
+---
