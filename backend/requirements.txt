@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+google-api-python-client
+google-auth
+langchain
+openai  # or gemini if using Google
+python-dotenv
