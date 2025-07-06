@@ -7,9 +7,9 @@ It features real-time availability checks, prevents scheduling in the past, and 
 
 ## 📸 Demo
 
-![Calendar](assets/screenshot_calendar.png)
+![Calendar](assets/Screenshot_calendar.png)
 
-![Assistant](assets/screenshot_calendarbot.png)
+![Assistant](assets/Screenshot_calendarbot.png)
 
 ---
 
