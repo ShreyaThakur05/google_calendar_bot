@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from calendar_utils import check_availability, create_event
 from dateutil.parser import isoparse
-from datetime import datetime, timezone  # ✅ This was missing
+from datetime import datetime, timezone 
 
 app = FastAPI()
 

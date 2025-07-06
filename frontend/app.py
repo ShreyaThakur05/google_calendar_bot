@@ -5,7 +5,7 @@ import pytz
 
 st.set_page_config(page_title="Google Calendar Booking Assistant", layout="centered")
 
-# --- Custom CSS ---
+#Custom CSS 
 st.markdown("""
     <style>
         html, body {
@@ -66,7 +66,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Header ---
+# Header
 st.markdown("""
 <div class="fixed-header">
     <h2>🤖 Google Calendar Booking Assistant</h2>
@@ -74,18 +74,18 @@ st.markdown("""
 <div class="spacer"></div>
 """, unsafe_allow_html=True)
 
-# --- Chat State ---
+# Chat State
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# --- Display messages ---
+# Display messages 
 for msg in st.session_state.messages:
     role = msg["role"]
     content = msg["content"]
     bubble_class = "user" if role == "user" else "bot"
     st.markdown(f"<div class='chat-bubble {bubble_class}'>{content}</div>", unsafe_allow_html=True)
 
-# --- Input field ---
+# Input field 
 user_input = st.chat_input("Schedule something...")
 
 if user_input:
