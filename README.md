@@ -68,6 +68,8 @@ streamlit run app.py
 ## 🔐 Authentication
 
 This project uses a **Google Service Account** with the Calendar API enabled.  
-Make sure your `service_account.json` is valid and added to your project.
+👉 **Important:** You must create a `service_account.json` from your **Google Cloud Console** and place it in your project root or the backend directory.  
+Make sure it has permission to access and manage your Google Calendar.
+
 
 ---
